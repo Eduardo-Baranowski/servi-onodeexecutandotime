@@ -1,0 +1,38 @@
+{
+  "name": "serviceGestorUnitech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/cron": "^1.7.3",
+    "@types/express": "^4.17.13",
+    "cors": "^2.8.5",
+    "crom": "^0.1.0",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "node-webhooks": "^1.4.2",
+    "typeorm": "^0.2.37"
+  },
+  "scripts": {
+    "prestart": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/server.ts",
+    "start": "node dist/server.js",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.3.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
