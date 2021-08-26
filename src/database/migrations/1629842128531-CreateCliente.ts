@@ -27,10 +27,6 @@ export class CreateCliente1629842128531 implements MigrationInterface {
               type: 'varchar',
             },
             {
-              name: 'TipoCliente',
-              type: 'varchar',
-            },
-            {
               name: 'NomeFantasia',
               type: 'varchar',
             },

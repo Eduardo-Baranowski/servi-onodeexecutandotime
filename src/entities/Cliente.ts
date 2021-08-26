@@ -21,9 +21,6 @@ class Cliente {
   @Column({ name: 'IdEmpresa' })
   idEmpresa!: string;
 
-  @Column({ name: 'TipoCliente' })
-  tipoCliente!: string;
-
   @Column({ name: 'NomeFantasia' })
   nomeFantasia!: string;
 

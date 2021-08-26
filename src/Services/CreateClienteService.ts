@@ -8,7 +8,6 @@ interface Request {
   nome: string;
   idTipoCliente: string;
   idEmpresa: string;
-  tipoCliente: string;
   nomeFantasia: string;
   tipoPessoa: string;
   docIdentificacao: string;
@@ -29,7 +28,6 @@ class CreateClienteService {
     nome,
     idTipoCliente,
     idEmpresa,
-    tipoCliente,
     nomeFantasia,
     tipoPessoa,
     docIdentificacao,
@@ -58,7 +56,6 @@ class CreateClienteService {
       nome,
       idTipoCliente,
       idEmpresa,
-      tipoCliente,
       nomeFantasia,
       tipoPessoa,
       docIdentificacao,
